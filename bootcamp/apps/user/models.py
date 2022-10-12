@@ -1,8 +1,7 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
-# Create your models here.
 
-
+#MODELO DE USUARIO
 class User(AbstractUser):
     class Type(models.IntegerChoices):
         ADMIN = (0, 'Admin')
