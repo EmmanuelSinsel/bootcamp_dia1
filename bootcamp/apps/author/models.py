@@ -1,9 +1,7 @@
 from django.db import models
-
 from apps.user.models import User
-# Create your models here.
 
-
+#MODELO DE AUTOR
 class Author(models.Model):
     alias = models.CharField(verbose_name='Alias', max_length=50)
     birth_date = models.DateField(verbose_name="Fecha de Nacimiento")
