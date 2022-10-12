@@ -41,8 +41,7 @@ INSTALLED_APPS = [
     'apps.book',
     'apps.editorial',
     'apps.author',
-
-]
+] #AQUI SE INSTALAN LAS APPS QUE SE CREAN EN LA CARPETA APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
