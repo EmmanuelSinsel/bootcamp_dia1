@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class EditorialConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.editorial'
+    name = 'apps.editorial' #SE AÑADE APPS. PARA INDICAR LA CARPETA CONTENEDORA
